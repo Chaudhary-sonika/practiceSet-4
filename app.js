@@ -113,7 +113,7 @@ const podAndTeamAllocation = (obj)=>({...obj, teamID: 667543});
 console.log(podAndTeamAllocation(userData))
 // {firstName: 'John', lastName: 'Dee', teamId: 667543}
 
-8. Write an ES6 function which checks if a student already has a team. If team is not given then add them to team “A” and return the object else do nothing and return the same object. Avoid using in-built methods.
+// 8. Write an ES6 function which checks if a student already has a team. If team is not given then add them to team “A” and return the object else do nothing and return the same object. Avoid using in-built methods.
 
 const checkForTeam = (obj) =>{
     (obj.team ?? (obj.team = "A"))
