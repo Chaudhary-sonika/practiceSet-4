@@ -32,7 +32,7 @@ const calculateAverage = (arr) => {
 // console.log(convertEvenToOdd(numArr));
 // // [1, 3, 3, 5, 5, 7, 7, 9, 9]
 
-var numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// var numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const convertEvenToOdd = (arr) =>{
     for (let i =0; i< arr.length; i++){
         if(arr[i]%2 === 0){
@@ -119,9 +119,9 @@ const checkForTeam = (obj) =>{
     (obj.team ?? (obj.team = "A"))
     return obj; }
 
-console.log(checkForTeam({firstName: 'Penn', lastName: 'Ma'}))
-console.log(checkForTeam({firstName: 'John', lastName: 'Dee', team: B}))
-console.log(checkForTeam({firstName: 'Priya', lastName: 'Raj'}))
+// console.log(checkForTeam({firstName: 'Penn', lastName: 'Ma'}))
+// console.log(checkForTeam({firstName: 'John', lastName: 'Dee', team: "B"}))
+// console.log(checkForTeam({firstName: 'Priya', lastName: 'Raj'}))
 
 // 9. Destructure the following code to get the desired outputs. Avoid using in-built methods.
 
